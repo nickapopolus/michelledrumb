@@ -1,0 +1,48 @@
+# Wordpress - ignore core, configuration, examples, uploads and logs.
+# https://github.com/github/gitignore/blob/main/WordPress.gitignore
+
+/src/readme.html
+/.idea/
+/src/.well-known/
+# Example themes
+#/src/wp-content/themes/twenty*/
+
+# Example plugin
+/src/wp-content/plugins/hello.php
+
+# Uploads
+/src/wp-content/uploads/
+
+# Log files
+*.log
+
+# htaccess
+/.htaccess
+
+# Ignore common sensitive files/directories
+/.env
+/sitemap.xml
+/google*.html
+# Plugin or theme specific files to ignore
+/wp-content/plugins/some-plugin/sensitive-data
+/wp-content/themes/your-theme/sensitive-config.php
+# Node modules if you're using any Node.js based tooling
+/node_modules
+# Ignore common cache and temporary files
+*.
+log
+*.bak
+*.swp
+.DS_Store
+
+# All plugins
+#
+# Note: If you wish to whitelist plugins,
+# uncomment the next line
+#/wp-content/plugins
+
+# All themes
+#
+# Note: If you wish to whitelist themes,
+# uncomment the next line
+#/wp-content/themes
