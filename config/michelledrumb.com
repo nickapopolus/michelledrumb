@@ -2,7 +2,7 @@ server {
     listen 80;
     listen [::]:80;
 
-    root /var/www/muchelledrumb/src;
+    root /var/www/michelledrumb/src;
 
     index index.php;
     server_name michelledrumb.com www.michelledrumb.com;
