@@ -2,7 +2,7 @@ server {
     listen 80;
     listen [::]:80;
 
-    root /opt/intranet_wordpress_stage/src/;
+    root /var/www/muchelledrumb/src;
 
     index index.php;
     server_name michelledrumb.com www.michelledrumb.com;
